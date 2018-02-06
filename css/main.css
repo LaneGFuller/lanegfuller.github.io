@@ -7,7 +7,7 @@ nav ul, footer ul {
   padding: 0px;
   list-style: none;
   font-weight: bold;
-  background-color: 'orange';
+  background: 'orange';
 }
 nav ul li, footer ul li {
   display: inline;
@@ -39,7 +39,4 @@ ul.posts {
 }
 ul.posts li {
   list-style: none;
-}
-.menu {
-  background-color: 'orange';
 }
