@@ -1,9 +1,0 @@
----
-layout: post
-title: "Lane Fuller, Horrible Cop, Launches Site"
-date: 2018-02-05
----
-
-Well. Finally got around to putting this old websited togther. Neat thing about it - powered by
-[Jekyll](http://jekyllrb.com) and I can use Markdown to author my posts. It actually is a lot
-easier than I thought it was going to be.
