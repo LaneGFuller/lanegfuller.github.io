@@ -1,15 +1,24 @@
-body {
-  margin: 60px auto;
-  width: 70%;
+* {
+  margin: 0;
+}
+
+.menu {
+  background: orange;
+  position: fixed;
+  z-index: 100;
+  width: 100%;
 }
 nav {
-  background: #000;
+  background: orange;
+  padding: 0px;
+  text-align: right;
 }
 nav ul, footer ul {
   font-family:'Helvetica', 'Arial', 'Sans-Serif';
-  padding: 0px;
+  font-size: 1.5em;
+  padding: 5px;
+  margin: 0px;
   list-style: none;
-  font-weight: bold;
 }
 nav ul li, footer ul li {
   display: inline;
@@ -17,7 +26,7 @@ nav ul li, footer ul li {
 }
 a {
   text-decoration: none;
-  color: #999;
+  color: white;
 }
 a:hover {
   text-decoration: underline;
