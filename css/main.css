@@ -8,6 +8,11 @@
   z-index: 100;
   width: 100%;
 }
+.blurb {
+  position: relative;
+  top: 20px;
+  background: orange;
+}
 nav {
   background: orange;
   padding: 0px;
