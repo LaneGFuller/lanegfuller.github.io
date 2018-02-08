@@ -1,3 +1,74 @@
-.menu {
-  background: blue;
+body {
+  margin: 0;
+}
+/* links */
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* top bar */
+.top-bar {
+  background: orange;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  font-family: Helvetica;
+  font-size: 15px;
+}
+.top-bar nav ul {
+  float: right;
+  padding: 5px 0px;
+  margin: 0;
+}
+.top-bar nav ul li {
+  display: inline;
+  margin-right: 15px;
+}
+.top-bar nav ul li a {
+  color: white;
+}
+
+/* content container */
+.content-container {
+  position: relative;
+  top: 27px;
+  width: 100%;
+}
+
+/* banner */
+.banner {
+  background: orange;
+  height: 400px;
+}
+
+.banner h1 {
+  font-size: 80px;
+  color: white;
+  position: relative;
+  top: 100px;
+  border: 10px solid white;
+  width: 500px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* about */
+.about {
+  height: 200px;
+  width: 100%;
+}
+
+.about h1 {
+  margin: 0;
+}
+
+/* projects */
+
+/* footer */
+footer {
+  position: relative;
+  top: 27px;
 }
